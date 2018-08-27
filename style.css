@@ -8,7 +8,10 @@ h1{
     color: rgb(255, 255, 255);
     text-align: center;
 }
-
+form{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
 .Formulario {
     width: 500px;
     max-width: 100%;
