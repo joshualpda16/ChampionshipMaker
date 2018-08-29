@@ -3,11 +3,14 @@ body{
     background-color: #000000;
 }
 
-.titulo {color= blue; }
+.titulo {
+    color: blue; 
+}
+
 .logo{
     position: fixed;
     width: 5cm;
-    text-align: :center;
+    text-align: center;
 }
 
 h1{
