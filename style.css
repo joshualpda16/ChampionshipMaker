@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    min-width: 400px;
 }
 header label{
     width: 30px;
@@ -13,29 +14,47 @@ header label{
 #btn-menu {
     display: none;
 }
+
 header{
-    
     width: 100%;
-    background: rgba(51, 255, 143, 0.877);
 }
 
-.titulo {
-    color: blue;
+.Titulo{
+    text-align: center;
 }
+
 .menu ul{
+    background: rgba(51, 255, 143, 0.877);
     margin: 0;
     list-style: none;
     padding: 0;
-    display: flex;
     text-align: center;
     justify-content: center;
 }
+
+@media (min-width: 500px){
+    .menu ul{
+        display: flex;
+    }
+}
+
+@media (max-width: 500px){
+    .menu ul{
+        display: block;
+    }
+}
+
 .menu li a{
     display: block;
     padding: 15px 20px;
     color: #000000;
     text-decoration: rgb(255, 255, 255)
 }
+
+.menu li:hover{
+    background: rgba(37, 165, 95, 0.87);
+}
+
 .logo{
     position: fixed;
     width: 5cm;
@@ -43,26 +62,28 @@ header{
     text-align: center;
 }
 
-h1{
-    color: rgb(25, 0, 255);
+.logo{
+    width: 5cm;
     text-align: center;
+    height: 5cm;
+    position: fixed;
 }
-form{
-    color: rgb(25, 0, 255);
-    text-align: center;
+
+#form1{
+    text-align: right;
 }
-.Formulario {
-    width: 500px;
-    max-width: 100%;
-    margin: auto;
-    margin-top: 30px;
-    padding: 20px;
-    box-shadow: 0 0 20px 1px rgba (0,0,0,0.3);
-    position: relative;
-}
+
 .Formulario__Titulo{
     text-align: center;
     margin-top: 0;
-    color:rgb(25, 0, 255);
 }
     
+#formContainer{
+    width: 328px;
+    border: 1px solid #afadad;
+    box-shadow: 8px 10px 20px #CCC;
+    margin: auto;
+    border-radius: 15px;
+    padding-top: 16px;
+    padding-right: 10px;
+}
