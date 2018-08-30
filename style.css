@@ -1,24 +1,54 @@
 body{
-    font-size: 20px; color: rgb(0, 17, 255);
-    background-color: #000000;
+    margin: 0;
+    font-family: sans-serif;
+}
+header label{
+    width: 30px;
+    height: 30px;
+    display: none;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+#btn-menu {
+    display: none;
+}
+header{
+    
+    width: 100%;
+    background: rgba(51, 255, 143, 0.877);
 }
 
 .titulo {
-    color: blue; 
+    color = blue;
 }
-
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #000000;
+    text-decoration: rgb(255, 255, 255)
+}
 .logo{
     position: fixed;
     width: 5cm;
+    height: 5cm;
     text-align: center;
 }
 
 h1{
-    color: rgb(68, 0, 255);
+    color: rgb(25, 0, 255);
     text-align: center;
 }
 form{
-    color: rgb(255, 255, 255);
+    color: rgb(25, 0, 255);
     text-align: center;
 }
 .Formulario {
@@ -33,6 +63,6 @@ form{
 .Formulario__Titulo{
     text-align: center;
     margin-top: 0;
-    color:rgb(255, 255, 255);
+    color:rgb(25, 0, 255);
 }
     
