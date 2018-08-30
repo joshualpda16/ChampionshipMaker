@@ -31,7 +31,23 @@ header{
     text-align: center;
     justify-content: center;
 }
-
+@media (min-width : 960px){
+    .logo{
+        position:fixed;
+        width: 5cm;
+        height: 5cm;
+    }
+}
+@media (max-width : 960px){
+    .logo{
+        width: 3cm;
+        height: 3cm;
+        position: relative;
+    }
+    #divlogo{
+        text-align: center;
+    }
+}
 @media (min-width: 500px){
     .menu ul{
         display: flex;
@@ -56,17 +72,9 @@ header{
 }
 
 .logo{
-    position: fixed;
-    width: 5cm;
-    height: 5cm;
     text-align: center;
-}
+    top:50px;
 
-.logo{
-    width: 5cm;
-    text-align: center;
-    height: 5cm;
-    position: fixed;
 }
 
 #form1{
