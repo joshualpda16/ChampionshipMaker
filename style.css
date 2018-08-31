@@ -22,6 +22,9 @@ header{
 .Titulo{
     text-align: center;
 }
+.Campeonato{
+    text-align: center;
+}
 
 .menu ul{
     background: rgba(51, 255, 143, 0.877);
@@ -80,6 +83,13 @@ header{
 #form1{
     text-align: right;
 }
+#form2{
+    text-align: center;
+    margin:auto;
+    border: 2px;
+
+
+}
 
 .Formulario__Titulo{
     text-align: center;
@@ -94,4 +104,18 @@ header{
     border-radius: 15px;
     padding-top: 16px;
     padding-right: 10px;
+}
+#divcampeonato{
+    text-align: right;
+    border: 1px solid #afadad;
+    width: 400px;
+    box-shadow: 8px 10px 20px #ccc;
+    margin: auto;
+    border-radius: 15px;
+    padding-top: 16px;
+    padding-right: 10px;
+}
+.campeonato_de{
+    text-align: left;
+    padding: 0;
 }
