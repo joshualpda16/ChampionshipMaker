@@ -27,27 +27,31 @@
         <h1 class="Titulo"> BIENVENIDO A CHAMPIONSHIP MAKER </h1>
         
         <br/>
+        <br/>
+        <br/>
+        <h2 class="Campeonato">Crear de campeonato</h2>
         
-        <h1 class="Formulario__Titulo">Formulario</h1>
-        
-        <div id="formContainer">
-            <form action="" id="form1" class="">
-                <label for="" class="formulario__label">Nombre</label> 
-                <input type="text" class="formulario__imput">
+        <div id="divcampeonato">
+            <form action="" id="form2" class="">
+                <h5 class="campeonato_de"> Campeonato de:</h5>
+                <input type="text" name="campeonato_de" placeholder="Ej: Metegol" class="imput-50" required>
                 <br/>
-                <label for="" class="formulario__label">Apellido</label>
-                <input type="text" class="formulario__imput">
+                <input type="text" name="cantidad_jugadores" placeholder="Ej: 4"class="imput-50" required>
                 <br/>
-                <label for="" class="formulario__label">Correo Electronico</label>
-                <input type="text" class="formulario__imput">
+            
                 <br/>
-                <label for="" class="formulario__label">Correo Electronico</label>
-                <input type="text" class="formulario__imput">
+                    <select>
+                        <option value="Opciones">Seleccionar</option>
+                        <option value="Eliminatoria">Eliminatoria</option>
+                        <option value="Clasificatoria">Clasificatoria</option>
+                        <option value="Campeonato">Campeonato</option>
+                    </select>
                 <br/>
-                <input type="submit" class="formulario__submit" >
-                <br/>
+                <input type="submit" value="Comenzar">
+                
             </form>
         </div>
+
         <div id="divlogo">
             <img class="logo" src="logopag.png" alt="logo">
         </div>
