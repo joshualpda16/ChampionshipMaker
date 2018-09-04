@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    min-width: 400px;
+}
+@media (min-width : 960px){
+    .logo{
+        position:fixed;
+        width: 5,5cm;
+        height: 5cm;
+    }
+}
+@media (max-width : 1000px){
+    .logo{
+        width: 3cm;
+        height: 3cm;
+        position: relative;
+    }
+    #divlogo{
+        text-align: center;
+    }
+}
+@media (min-width: 500px){
+    .menu ul{
+        display: flex;
+    }
+}
+
+@media (max-width: 500px){
+    .menu ul{
+        display: block;
+    }
+}
