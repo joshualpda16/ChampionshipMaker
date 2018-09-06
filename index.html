@@ -3,12 +3,20 @@
         <title>Championship Maker Page</title>
         <LINK REL=StyleSheet HREF="style.css" TYPE="text/css" > 
         <script src="script.js"></script>
+        <script>
+             function select(){
+                 var elementos=document.forms["form1"].elements[4].value;
+                 document.getElementById("resultado").innerHTML="+elementos+" \
+             }
+
+        </script>
+        
     </head>
 
     <meta charset="UTF-8">
     <title>Formulario comun</title>
     <body>
-        
+    
         <header>
             <input type="checkbox" id="btn-menu">
             <label for="btm-menu"> <img class="menu" src="boton menu circulo.png" alt="">
@@ -57,7 +65,7 @@
                     </select>
                 <br/>
                 <br/>
-                <input type="button" class="button" onclick="eliminatoria()" value="Comenzar." >
+                <input type="button" class="button" onclick="select()" value="Comenzar." >
                 
             </form>
         </div>
