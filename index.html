@@ -3,19 +3,13 @@
         <title>Championship Maker Page</title>
         <LINK REL=StyleSheet HREF="style.css" TYPE="text/css" > 
         <script src="script.js"></script>
-        <script>
-             function select(){
-                 var elementos=document.forms["form1"].elements[4].value;
-                 document.getElementById("resultado").innerHTML="+elementos+" \
-             }
-
-        </script>
+        
+        <meta charset="UTF-8">
         
     </head>
-
-    <meta charset="UTF-8">
-    <title>Formulario comun</title>
     <body>
+
+        <div class="wallpaper"></div>
     
         <header>
             <input type="checkbox" id="btn-menu">
@@ -24,7 +18,7 @@
 
             <nav class="menu"> 
                 <ul>
-                    <li><a href="">Inicio</a></li>
+                    <li><a href="index.html">Inicio</a></li>
                     <li><a href="">Campeonatos</a></li>
                     <li><a href="">Contactos</a></li>
                 </ul>
@@ -42,7 +36,7 @@
         <br/>
         
         <div id="divcampeonato">
-            <form action="" method="" id="form1" class=""> 
+            <form id="form1" class=""> 
                
                 <label for="campeonato_de" class="label1"> Campeonato de:</label>
                 <input type="text" name="campeonato_de" placeholder="Ej: Metegol" id="" class="input-50" required>
@@ -65,9 +59,11 @@
                     </select>
                 <br/>
                 <br/>
-                <input type="button" class="button" onclick="select()" value="Comenzar." >
+                
                 
             </form>
+            <button class ="botonsexy" onclick="submit(); return false;">Continuar</button>
+            
         </div>
 
         <div id="divlogo">

@@ -8,7 +8,7 @@ body{
     color: #000000;
 }
 .menu ul{
-    background: rgba(51, 255, 143, 0.877);
+    background: rgba(0, 0, 0, 0.2);
     margin: 0;
     list-style: none;
     padding: 0;
@@ -23,7 +23,7 @@ body{
     margin: 0; 
 }
 .menu li:hover{
-    background: rgba(37, 165, 95, 0.87);
+    background: rgba(177, 171, 171, 0.87);
 }
 @media (min-width : 960px){
     .logo{
@@ -52,4 +52,11 @@ body{
     .menu ul{
         display: block;
     }
+}
+.wallpaper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: URL(wallpaper.jpg);
+    z-index: -1000;
 }
